@@ -1,0 +1,99 @@
+/* 
+  authorName : Sanjuna Konda 
+  email : sn493898@dal.ca
+*/
+
+.Dashboard {
+    text-align: center;
+    height:90%;
+}
+
+.filterdropdown {
+    float: right;
+    display:inline-flex;
+    margin: 10px;
+}
+
+.heading {
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #4424D6;
+}
+
+.searchinput {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.propertyCard {
+    width:80%;
+    height:fit-content;
+    background:#eceff1;
+    text-align:center;
+    cursor: pointer;
+    box-shadow: 2px 3px #888888;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.propertyCard:hover{
+    transform: scale(0.9);
+}
+
+.image {
+    width: 190px;
+    height: 110px;
+    float: left;
+    margin-top: 10px;
+}
+
+.housedetails {
+    background:#eceff1;
+    border: none;
+    margin-top:1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.renterdetails {
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.househeading {
+    font-size: large;
+}
+
+.emailstyle {
+    color: #1565c0;
+    font-size: large;
+}
+
+.nohouses {
+    width:95%;
+    height:fit-content;
+    background:#eceff1;
+    text-align:center;
+    box-shadow: 2px 3px #888888;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.saveproperty {
+    text-align: center;
+    margin-top: 40%;
+}
+@media screen and (max-width: 810px) {
+    .propertyCard {
+        width: 100 !important;
+    }
+    .nohouses {
+        width: 100 !important;
+    }
+}
+

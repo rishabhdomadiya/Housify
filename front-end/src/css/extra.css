@@ -1,0 +1,51 @@
+/* 
+  authorName : Dhruv Oza 
+  email : dhruv.oza@dal.ca
+*/
+
+.table-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+  border-color: #4267b2;
+  background: #4267b2;
+}
+
+.btn.btn-secondary:hover {
+  color: #fff;
+  border-color: #849fd4;
+  background: #849fd4;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  color: #fff;
+  background-color: #849fd4;
+}
+
+.input-applicant {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
